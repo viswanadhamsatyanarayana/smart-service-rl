@@ -1,0 +1,15 @@
+class Config:
+    EPISODES = 300
+    MAX_STEPS = 50
+
+    GAMMA = 0.9
+    LR = 0.001
+
+    EPSILON_START = 1.0
+    EPSILON_DECAY = 0.995
+    EPSILON_MIN = 0.01
+
+    BATCH_SIZE = 32
+    MEMORY_SIZE = 10000
+
+    TARGET_UPDATE = 10
